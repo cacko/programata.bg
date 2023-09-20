@@ -1,0 +1,63 @@
+body {
+    color: #fff;
+    background-color: #000;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#lufthansa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -215px;
+    margin-left: -240px;
+    clear: both;
+    height: 430px;
+    width: 480px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #d8caa5;
+}
+
+p.field {
+    float: left;
+    width: 220px;
+    margin: 0;
+    padding: 5px;
+    height: 50px;
+}
+
+p.field input, p.field select {
+    width: 200px;
+}
+
+div.spacer {
+    clear: both;
+    visibility: hidden;
+    height: 5px;
+}
+
+p.center {
+    text-align: center;
+}
+
+.val {
+    color: #C00;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p {
+    padding-bottom: 10px;
+}
+
+#lufthansaResult {
+    text-align: center;
+}

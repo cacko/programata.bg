@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poll id="poll">
+    <page>
+        <pageTitle>Социодемографски профил</pageTitle>
+        <item id="1">
+            <name> Пол </name>
+            <values>
+                <value id="1"> Мъж </value>
+                <value id="2"> Жена </value>
+            </values>
+        </item>
+        <item id="2" type="select">
+            <name> Моля посочете възраст в навършени години </name>
+            <values>
+                <value id="1"> 14 </value>
+                <value id="2"> 15 </value>
+                <value id="3"> 16 </value>
+                <value id="4"> 17 </value>
+                <value id="5"> 18 </value>
+                <value id="6"> 19 </value>
+                <value id="7"> 20 </value>
+                <value id="8"> 21 </value>
+                <value id="9"> 22 </value>
+                <value id="10"> 23 </value>
+                <value id="11"> 24 </value>
+                <value id="12"> 25 </value>
+                <value id="13"> 26 </value>
+                <value id="14"> 27 </value>
+                <value id="15"> 28 </value>
+                <value id="16"> 29 </value>
+                <value id="17"> 30 </value>
+                <value id="18"> 31 </value>
+                <value id="19"> 32 </value>
+                <value id="20"> 33 </value>
+                <value id="21"> 34 </value>
+                <value id="22"> 35 </value>
+                <value id="23"> 36 </value>
+                <value id="24"> 37 </value>
+                <value id="25"> 38 </value>
+                <value id="26"> 39 </value>
+                <value id="27"> 40 </value>
+                <value id="28"> 41 </value>
+                <value id="29"> 42 </value>
+                <value id="30"> 43 </value>
+                <value id="31"> 44 </value>
+                <value id="32"> 45 </value>
+                <value id="33"> 46 </value>
+                <value id="34"> 47 </value>
+                <value id="35"> 48 </value>
+                <value id="36"> 49 </value>
+                <value id="37"> 50 </value>
+                <value id="38"> 51 </value>
+                <value id="39"> 52 </value>
+                <value id="40"> 53 </value>
+                <value id="41"> 54 </value>
+                <value id="42"> 55 </value>
+                <value id="43"> 56 </value>
+                <value id="44"> 57 </value>
+                <value id="45"> 58 </value>
+                <value id="46"> 59 </value>
+                <value id="47"> 60 </value>
+                <value id="48"> 61 </value>
+                <value id="49"> 62 </value>
+                <value id="50"> 63 </value>
+                <value id="51"> 64 </value>
+                <value id="52"> 65 </value>
+                <value id="53"> 66 </value>
+                <value id="54"> 67 </value>
+                <value id="55"> 68 </value>
+                <value id="56"> 69 </value>
+                <value id="57"> 70 </value>
+                <value id="58"> 71 </value>
+                <value id="59"> 72 </value>
+                <value id="60"> 73 </value>
+                <value id="61"> 74 </value>
+                <value id="62"> 75 </value>
+            </values>
+        </item>
+        <item id="3">
+            <name> Личен доход за последния месец </name>
+            <values>
+                <value id="1"> Без доход </value>
+                <value id="2"> До 400 лева </value>
+                <value id="3"> 400-800 лева </value>
+                <value id="4"> 801-1500 лева </value>
+                <value id="5"> 1501-2000лева </value>
+                <value id="6"> Над 2000 лева </value>
+                <value id="7"> Без отговор </value>
+            </values>
+        </item>
+        <item id="4">
+            <name> Семеен статус </name>
+            <values>
+                <value id="1"> Женен/омъжена </value>
+                <value id="2"> Неженен/неомъжена </value>
+                <value id="3"> Постоянно съжителство без брак </value>
+                <value id="4"> Разведен/разведена </value>
+                <value id="5"> Вдовец/вдовица </value>
+            </values>
+        </item>
+        <item id="5">
+            <name> Най-висока степен на завършено образование </name>
+            <values>
+                <value id="7"> Второ висше/образователна степен, по-висока от
+                    магистър/специализация</value>
+                <value id="6"> Висше </value>
+                <value id="5"> Полувисше </value>
+                <value id="4"> Средно гимназиално </value>
+                <value id="3"> Средно специално </value>
+                <value id="2"> Основно и по-ниско</value>
+            </values>
+        </item>
+        <item id="6">
+            <name> Трудов статус </name>
+            <values>
+                <value id="1"> Работещ - пълна заетост </value>
+                <value id="2"> Работещ - частична заетост </value>
+                <value id="3"> Ученик/студент </value>
+                <value id="4"> Неработещ </value>
+            </values>
+        </item>
+        <item id="7">
+            <name> Професионален статус </name>
+            <values>
+                <value id="1"> Квалифициран работник </value>
+                <value id="2"> Специалист с висше образование </value>
+                <value id="3"> Служащ със средно и по-ниско образование </value>
+                <value id="4"> Неквалифициран работник </value>
+                <value id="5"> Собствен бизнес/Управител </value>
+                <value id="6"> Висше управленско ниво </value>
+                <value id="7"> Самонает/свободна професия </value>
+            </values>
+        </item>
+        <item id="8">
+            <name> Брой лица в домакинството </name>
+            <values>
+                <value id="1"> 1 </value>
+                <value id="2"> 2 </value>
+                <value id="3"> 3 </value>
+                <value id="4"> 4 </value>
+                <value id="5"> 5 и повече </value>
+            </values>
+        </item>
+        <item id="9">
+            <name> Деца до 15 години в домакинството</name>
+            <values>
+                <value id="1"> да </value>
+                <value id="2"> не </value>
+            </values>
+        </item>
+        <item id="10">
+            <name> Жилище </name>
+            <values>
+                <value id="1"> Собствено </value>
+                <value id="2"> Собствено с кредит </value>
+                <value id="3"> Не е собствено, но не плащам наем </value>
+                <value id="4"> Под наем </value>
+            </values>
+        </item>
+        <item id="11">
+            <name> Собствена преценка за материалното положения </name>
+            <values>
+                <value id="1"> Живея много добре </value>
+                <value id="2"> Живея нормално </value>
+                <value id="3"> Живея трудно </value>
+                <value id="4"> Едва свързвам двата края </value>
+            </values>
+        </item>
+    </page>
+    <page>
+        <pageTitle>Начин на живот</pageTitle>
+        <group>
+            <name> Излизане навън </name>
+            <item id="12">
+                <name> Пазаруване </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="13">
+                <name> Ресторанти </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="14">
+                <name> Кино </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="15">
+                <name> Нощни клубове </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="16">
+                <name> DJ партита </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="17">
+                <name> Концерти - съвременна музика </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="18">
+                <name> Театър </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="19">
+                <name> Изложби, пърформанси </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+            <item id="20">
+                <name> Класическа музика/опера </name>
+                <values>
+                    <value id="1"> Четири-пет пъти месечно </value>
+                    <value id="2"> Два-три пъти месечно </value>
+                    <value id="3"> Веднъж месечно </value>
+                    <value id="4"> По-рядко </value>
+                    <value id="5"> Не ходя </value>
+                </values>
+            </item>
+        </group>
+        <item id="21">
+            <name> Последният път, когато излизахте навън, колко пари похарчихте? </name>
+            <values>
+                <value id="1"> До 10лв </value>
+                <value id="2"> 11 - 20 лв </value>
+                <value id="3"> 21 - 40лв </value>
+                <value id="4"> Над 41 </value>
+            </values>
+        </item>
+        <item id="22" type="checkbox">
+            <name> Занимания в свободното време </name>
+            <values>
+                <value id="1"> Спорт </value>
+                <value id="2"> Интернет/компютри </value>
+                <value id="3"> Чета книги </value>
+                <value id="4"> Слушам музика </value>
+                <value id="5"> Пътуване/туризъм </value>
+                <value id="6"> Кино/театър </value>
+                <value id="7"> Риболов </value>
+                <value id="8"> Срещи с приятели </value>
+                <value id="9"> Колекциониране на неща </value>
+                <value id="10"> Коли/мотори </value>
+                <value id="11"> Домашен любимец </value>
+                <value id="12"> Нямам хоби </value>
+            </values>
+        </item>
+        <item id="23" type="checkbox">
+            <name> Потребление на медии </name>
+            <values>
+                <value id="1" type="text" occurencies="3"> Телевизия - моля,напишете кои (топ 3) </value>
+                <value id="2" type="text" occurencies="3"> Радио – моля, напишете кои (топ 3) </value>
+                <value id="3" type="text" occurencies="3"> Вестници/месечни издания – моля, напишете
+                    кои (топ 3) </value>
+                <value id="4" type="text" occurencies="3"> Интернет – моля, напишете кои (топ 3)
+                </value>
+            </values>
+        </item>
+        <item id="25">
+            <name> Когато пътувате, пътувате </name>
+            <values>
+                <value id="1"> По работа </value>
+                <value id="2"> За удоволствие </value>
+                <value id="3"> И двете </value>
+                <value id="4"> Не пътувам </value>
+            </values>
+        </item>
+        <item id="76">
+            <name> Когато пътувате, пътувате </name>
+            <values>
+                <value id="1"> В България </value>
+                <value id="2"> В чужбина </value>
+                <value id="3"> И в България, и в чужбина </value>
+                <value id="4"> Не пътувам </value>
+            </values>
+        </item>
+
+        <item id="26" type="checkbox">
+            <name> За какво ползвате мобилния си телефон </name>
+            <values>
+                <value id="1"> Разговори/sms </value>
+                <value id="2"> Интернет </value>
+                <value id="3"> Бизнес приложения </value>
+                <value id="4"> Забавления </value>
+            </values>
+        </item>
+        <item id="28">
+            <name> Приблизително на колко години е автомобилът, който шофирате най-често? </name>
+            <values>
+                <value id="1"> До 3 години </value>
+                <value id="2"> 3 - 5 години </value>
+                <value id="3"> 6 - 10 години </value>
+                <value id="4"> 11 - 15 години </value>
+                <value id="5"> 16+ години </value>
+                <value id="6"> Не шофирам </value>
+            </values>
+        </item>
+        <item id="29" type="checkbox">
+            <name> Кое от следните възнамерявате да купите през следващите 12 месеца? </name>
+            <values>
+                <value id="1"> Мобилен апарат </value>
+                <value id="2"> Бяла техника </value>
+                <value id="3"> Черна техника </value>
+                <value id="4"> Компютър, лаптоп </value>
+                <value id="5"> Ново жилище/вила </value>
+                <value id="6"> Автомобил </value>
+                <value id="7"> Застраховка </value>
+                <value id="8"> Нито едно </value>
+            </values>
+        </item>
+        <item id="32" type="checkbox">
+            <name> Възнамерявате ли да ползвате заем от банка в следващите 12 месеца? За какво
+                смятате да използвате този заем </name>
+            <values>
+                <value id="10"> Няма да ползвам заем </value>
+                <value id="1"> За жилище </value>
+                <value id="2"> За ремонт </value>
+                <value id="3"> За техника </value>
+                <value id="4"> За обзавеждане </value>
+                <value id="5"> За бизнес </value>
+                <value id="6"> За атомобил </value>
+                <value id="7"> За почивка/пътуване </value>
+                <value id="8"> Потребителски </value>
+                <value id="9"> Друго </value>
+            </values>
+        </item>
+        <item id="33" type="checkbox">
+            <name> Какъв кредит имате в момента (ако ползвате)? </name>
+            <values>
+                <value id="1"> Потребителски </value>
+                <value id="2"> Ипотечен </value>
+                <value id="3"> Рефинансиране </value>
+                <value id="4"> Бизнес кредит </value>
+                <value id="5"> Овърдрафт (оverdraft) </value>
+                <value id="6"> Не ползвам </value>
+            </values>
+        </item>
+        <item id="34" type="checkbox">
+            <name> Ползвате ли депозит и какъв? </name>
+            <values>
+                <value id="1"> Краткосрочен </value>
+                <value id="2"> Дългосрочен </value>
+                <value id="3"> Не ползвам </value>
+            </values>
+        </item>
+        <item id="35" type="checkbox">
+            <name> Имате ли застраховка? Каква? </name>
+            <values>
+                <value id="1"> Живот </value>
+                <value id="2"> Пенсионно осигуряване </value>
+                <value id="3"> Автомобил </value>
+                <value id="4"> Туристическа </value>
+                <value id="5"> Имуществена </value>
+                <value id="6"> Нямам </value>
+            </values>
+        </item>
+
+    </page>
+    <page>
+        <pageTitle>Употреба на Програмата</pageTitle>
+        <group>
+            <name>Разпространение на Програмата</name>
+            <item id="36" type="checkbox">
+                <name> Откъде взимате Програмата в печатен вариант? </name>
+                <values>
+                    <value id="1"> Ресторанти/места за хранене </value>
+                    <value id="2"> Kино </value>
+                    <value id="3"> Клубове/барове </value>
+                    <value id="4"> Културен център </value>
+                    <value id="5"> Oфис </value>
+                    <value id="6"> Tеатър </value>
+                </values>
+            </item>
+            <item id="37">
+                <name> Лесно ли намирате Програмата? </name>
+                <values>
+                    <value id="1"> Много лесно </value>
+                    <value id="2"> По-скоро лесно </value>
+                    <value id="3"> По-скоро трудно </value>
+                    <value id="4"> Много трудно (няма я на много места) </value>
+                </values>
+            </item>
+            <item id="38">
+                <name> Видимост на местата, където се разпространява Програмата </name>
+                <values>
+                    <value id="1"> 5 (много добра видимост) </value>
+                    <value id="2"> 4 </value>
+                    <value id="3"> 3 </value>
+                    <value id="4"> 2 </value>
+                    <value id="5"> 1 (изобщо не се виждат) </value>
+                </values>
+            </item>
+        </group>
+        <item id="39">
+            <name> Ползвате ли алтернативни източници на информация? </name>
+            <values>
+                <value id="1" type="text"> Да – кои? </value>
+                <value id="2"> Не </value>
+            </values>
+        </item>
+        <item id="40" type="checkbox">
+            <name> Оценка на твърдения </name>
+            <values>
+                <value id="1"> Справочник с актуална информация </value>
+                <value id="2"> Ежеседмично издание с интересни материали, от които научавам нещо
+                    ново </value>
+                <value id="3"> Редовно чета текстове/интервюта/статии </value>
+                <value id="4"> Преглеждам всички рубрики </value>
+                <value id="5" type="text"> Друго </value>
+            </values>
+        </item>
+        <group>
+            <name>Реклама</name>
+            <item id="41">
+                <name> Обръщате ли внимание на рекламите в Програмата? </name>
+                <values>
+                    <value id="1"> Често </value>
+                    <value id="2"> Понякога </value>
+                    <value id="3"> Рядко </value>
+                    <value id="4"> Никога </value>
+                </values>
+            </item>
+            <item id="42" type="checkbox">
+                <name> Рекламата в Програмата </name>
+                <values>
+                    <value id="1"> Ви помага при избор на марка </value>
+                    <value id="2"> Ви информира за нови продукти/услуги </value>
+                    <value id="3"> Ви е полезна </value>
+                    <value id="4"> Ви дава идеи за покупки </value>
+                    <value id="5"> Друго/без отговор </value>
+                </values>
+            </item>
+            <item id="43">
+                <name> След като видяхте интересна реклама в Програмата, Вие: </name>
+                <values>
+                    <value id="1"> Посетих магазина/сайта </value>
+                    <value id="2"> Купих продукта </value>
+                    <value id="3"> Потърсих продукта </value>
+                    <value id="4"> Не ми се е случвало/без отговор </value>
+                </values>
+            </item>
+            <item id="44">
+                <name> След като видяхте/прочетохте за ново заведение в Програмата, Вие: </name>
+                <values>
+                    <value id="1"> Посетих заведението </value>
+                    <value id="2"> Доверявам се и ще го посетя </value>
+                    <value id="3"> Запомнихте, че има ново заведение </value>
+                    <value id="4"> Не обърнахте внимание </value>
+                </values>
+            </item>
+        </group>
+        <group>
+            <name> Колко често четете следните раздели на Програмата </name>
+            <item id="45">
+                <name> Миксер </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="46">
+                <name> Филми </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="47">
+                <name> Премиери </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="48">
+                <name> Кино </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="49">
+                <name> Театри </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="50">
+                <name> Изложби </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="51">
+                <name> Концерти </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="52">
+                <name> Класическа музика </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="53">
+                <name> По дни </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="54">
+                <name> Dj партита </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="55">
+                <name> Места за хранене </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+            <item id="56">
+                <name> Клубове/барове </name>
+                <values>
+                    <value id="1"> Често (1) </value>
+                    <value id="2"> Понякога (2) </value>
+                    <value id="3"> Рядко (3) </value>
+                    <value id="4"> Не чета (4) </value>
+                </values>
+            </item>
+        </group>
+        <group>
+            <name> Оценка на следните елементи на дизайна </name>
+            <item id="61">
+                <name> Модерен </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+            <item id="62">
+                <name> Лого </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+            <item id="63">
+                <name> Типография </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+            <item id="64">
+                <name> Елементите на отделните страници </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+            <item id="65">
+                <name> Лесно намиране на нужната информация </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+            <item id="66">
+                <name> Качество на информацията </name>
+                <values>
+                    <value id="1"> Отлична - 5 </value>
+                    <value id="2"> Добра - 4 </value>
+                    <value id="3"> Неутрална - 3 </value>
+                    <value id="4"> Лоша - 2 </value>
+                    <value id="5"> Много лоша - 1 </value>
+                </values>
+            </item>
+        </group>
+        <group>
+            <name>Употреба на Програмата</name>
+            <item id="67">
+                <name> От колко време четете Програмата? </name>
+                <values>
+                    <value id="1"> Над 8 години </value>
+                    <value id="2"> Около 6 години </value>
+                    <value id="3"> Около 4 години </value>
+                    <value id="4"> Около 2 години </value>
+                    <value id="5"> Около 1 година </value>
+                    <value id="6"> От 6 и по-малко месеца </value>
+                </values>
+            </item>
+            <item id="68">
+                <name> Колко души четат едно копие на Програмата? </name>
+                <values>
+                    <value id="1"> Един - само аз </value>
+                    <value id="2"> Двама </value>
+                    <value id="3"> Трима </value>
+                    <value id="4"> Четирима </value>
+                    <value id="5"> Петима </value>
+                    <value id="6"> Повече от петима </value>
+                </values>
+            </item>
+            <item id="69" type="checkbox">
+                <name> Каква информация търсите? </name>
+                <values>
+                    <value id="1"> Кино, филми </value>
+                    <value id="2"> Театър </value>
+                    <value id="3"> Класически концерт/опера </value>
+                    <value id="4"> Партита </value>
+                    <value id="5"> Изложби </value>
+                    <value id="6"> Клубове/барове </value>
+                    <value id="7"> Ресторанти/места за хранене </value>
+                    <value id="8"> Нещо за четене/нищо конкретно </value>
+                    <value id="9"> Според повода </value>
+                </values>
+            </item>
+            <item id="70">
+                <name> Колко подробно се чете Програмата? </name>
+                <values>
+                    <value id="1"> Чета всичко, включително реклами, текст </value>
+                    <value id="2"> По-скоро преглеждам </value>
+                    <value id="3"> Отделни раздели/търся конкретна информация </value>
+                </values>
+            </item>
+            <item id="71">
+                <name> Колко често четете Програмата? </name>
+                <values>
+                    <value id="1"> Всеки ден </value>
+                    <value id="2"> 2-3 пъти седмично </value>
+                    <value id="3"> Веднъж седмично </value>
+                    <value id="4"> По-рядко от веднъж седмично </value>
+                    <value id="5"> Веднъж месечно </value>
+                    <value id="6"> За първи път чета Програмата </value>
+                </values>
+            </item>
+            <item id="72">
+                <name> Кой от двата варианта четете? </name>
+                <values>
+                    <value id="1"> Печатен вариант </value>
+                    <value id="2"> Интернет вариант </value>
+                    <value id="3"> И двата </value>
+                    <value id="4"> Фен съм </value>
+                </values>
+            </item>
+            <item id="73">
+                <name> Печатен вариант – защо го предпочитате? </name>
+                <values>
+                    <value id="1"> Лесно се намира </value>
+                    <value id="2"> Удобен за употреба </value>
+                    <value id="3"> По навик </value>
+                    <value id="4"> Не обичам да чета в електронен формат </value>
+                    <value id="5"> Не използвам интернет/компютър </value>
+                    <value id="6"> Фен съм </value>
+                    <value id="7"> Не предпочитам </value>
+                </values>
+            </item>
+            <item id="74">
+                <name> Интернет вариант – защо го предпочитате? </name>
+                <values>
+                    <value id="1"> Удобен за употреба </value>
+                    <value id="2"> Лесен достъп </value>
+                    <value id="3"> По-бързо отколкото печатния вариант </value>
+                    <value id="4"> Може да се използва по всяко време на всяко място </value>
+                    <value id="5"> Фен съм </value>
+                    <value id="6"> Не предпочитам </value>
+                </values>
+            </item>
+        </group>
+    </page>
+    <item id="200" case="reject">
+        <name> Пол </name>
+        <values>
+            <value id="1"> Мъж </value>
+            <value id="2"> Жена </value>
+        </values>
+    </item>
+    <item id="201" type="select" case="reject">
+        <name> Моля посочете възраст в навършени години </name>
+        <values>
+            <value id="1"> 14 </value>
+            <value id="2"> 15 </value>
+            <value id="3"> 16 </value>
+            <value id="4"> 17 </value>
+            <value id="5"> 18 </value>
+            <value id="6"> 19 </value>
+            <value id="7"> 20 </value>
+            <value id="8"> 21 </value>
+            <value id="9"> 22 </value>
+            <value id="10"> 23 </value>
+            <value id="11"> 24 </value>
+            <value id="12"> 25 </value>
+            <value id="13"> 26 </value>
+            <value id="14"> 27 </value>
+            <value id="15"> 28 </value>
+            <value id="16"> 29 </value>
+            <value id="17"> 30 </value>
+            <value id="18"> 31 </value>
+            <value id="19"> 32 </value>
+            <value id="20"> 33 </value>
+            <value id="21"> 34 </value>
+            <value id="22"> 35 </value>
+            <value id="23"> 36 </value>
+            <value id="24"> 37 </value>
+            <value id="25"> 38 </value>
+            <value id="26"> 39 </value>
+            <value id="27"> 40 </value>
+            <value id="28"> 41 </value>
+            <value id="29"> 42 </value>
+            <value id="30"> 43 </value>
+            <value id="31"> 44 </value>
+            <value id="32"> 45 </value>
+            <value id="33"> 46 </value>
+            <value id="34"> 47 </value>
+            <value id="35"> 48 </value>
+            <value id="36"> 49 </value>
+            <value id="37"> 50 </value>
+            <value id="38"> 51 </value>
+            <value id="39"> 52 </value>
+            <value id="40"> 53 </value>
+            <value id="41"> 54 </value>
+            <value id="42"> 55 </value>
+            <value id="43"> 56 </value>
+            <value id="44"> 57 </value>
+            <value id="45"> 58 </value>
+            <value id="46"> 59 </value>
+            <value id="47"> 60 </value>
+            <value id="48"> 61 </value>
+            <value id="49"> 62 </value>
+            <value id="50"> 63 </value>
+            <value id="51"> 64 </value>
+            <value id="52"> 65 </value>
+            <value id="53"> 66 </value>
+            <value id="54"> 67 </value>
+            <value id="55"> 68 </value>
+            <value id="56"> 69 </value>
+            <value id="57"> 70 </value>
+            <value id="58"> 71 </value>
+            <value id="59"> 72 </value>
+            <value id="60"> 73 </value>
+            <value id="61"> 74 </value>
+            <value id="62"> 75 </value>
+        </values>
+    </item>
+    <item id="203" type="checkbox" case="reject">
+        <name> Причина на отказ: </name>
+        <values>
+            <value id="1"> Нямам време </value>
+            <value id="2"> Имам съмнения, че ще бъдат използвани личните ми данни </value>
+            <value id="3"> Не отговарям на въпроси </value>
+            <value id="4" type="text"> Друго: </value>
+        </values>
+    </item>
+</poll>

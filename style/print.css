@@ -1,0 +1,13 @@
+body
+{
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+#lang, #mainnav, #sysnav, #citynav, #context, #slogan, #copy img, #srcnav, #feed, #menu, #banner_bottom_1, #banner_bottom_2,
+#gallery, .inline_nav, .rating, .top, .calendar_add
+{
+	display: none;
+}
+img
+{
+	border:0px;
+}

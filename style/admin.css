@@ -1,0 +1,261 @@
+@import url('type.css');
+@import url('form.css');
+
+body
+{
+	/*width:990px;
+	margin:20px auto;*/
+	font-size:75%;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color : #FFF;
+	color: #000;
+}
+a
+{
+	color:#900;
+}
+h1
+{
+	color: #333;
+	font-weight: bold;
+	font-size:160%;
+}
+h2
+{
+	color: #333;
+	font-weight: bold;
+	font-size:130%;
+}
+hr
+{
+	border: none;
+	border-top: #000 1px dashed;
+	color: #FFF;
+	background-color : #FFF;
+	width:100%;
+	height : 1px;
+}
+#login
+{
+        width: 430px;
+        margin: 0px auto;
+}
+#menu
+{
+        float: left;
+        /*width: 140px;*/
+        width: 12%;
+        margin-right: 10px;
+	font-size: 90%;
+}
+#maincontent
+{
+        float: left;
+        /*width: 840px;*/
+        width: 82%;
+}
+ul.nav
+{
+        clear: both;
+        padding-left: 0px;
+}
+ul.nav li
+{
+        list-style-type: none;
+}
+#maincontent ul.nav li
+{
+        display : inline;
+        margin-right: 15px;
+}
+ul.nav li.on, #menu ul.nav li.on a
+{
+        color: #C00;
+}
+ul.nav li.on li.off, #menu ul.nav li.on li.off a
+{
+        color: #000;
+}
+ul.alpha, ul.relents
+{
+       margin-left: 0px;
+       padding-left: 0px;
+}
+ul.alpha li, ul.relents li
+{
+        display : inline;
+        margin-right: 5px;
+}
+ul.alpha li.on
+{
+        font-weight: bold;
+        font-size: 150%;
+}
+div.main, span.main
+{
+        color: #C00;
+        /*text-transform: uppercase;*/
+        font-weight: bold;
+}
+div.fest
+{
+        background-color: #93b3d2;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 10px 10px 10px;
+}
+div.prem
+{
+        background-color: #e3e3e3;
+}
+.note
+{
+	font-size: 90%;
+}
+table.grid
+{
+	border: #CCC 1px solid;
+	width:100%;
+	empty-cells : show;
+	font-size:100%;
+}
+table.grid thead
+{
+	font-weight:bold;
+}
+table.grid tbody td
+{
+	border: #CCC 1px solid;
+}
+tr.odd
+{
+	background-color: #F3F3F3;
+}
+tr.even
+{
+	background-color: #F9F9F9;
+}
+td
+{
+	vertical-align:top;
+	padding: 3px 3px 3px 3px;
+}
+table.form
+{
+	border: #CCC 1px solid;
+	empty-cells : show;
+	font-size:100%;
+	width:auto;
+	background-color: #EEE;
+}
+table.form tbody th
+{
+	width:150px;
+}
+table.form tbody td
+{
+	text-align: left;
+}
+input.fld, textarea, select, .fldsmall, .fldfilter, .fldtime, .flddate
+{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+        width:470px;
+	background-color: #FFF;
+	color: #000;
+}
+textarea
+{
+	height:45px;
+}
+iframe.related
+{
+       width: 495px;
+       height: 600px;
+       float:right;
+}
+fieldset
+{
+	/*max-width: 80%;*/
+	background-color: #EEE;
+	/*width: 960px;*/
+}
+fieldset.half
+{
+        float: left;
+        width: 480px;
+}
+fieldset div
+{
+	overflow: hidden;
+}
+.fldsmall
+{
+	width:325px;
+}
+.fldfilter
+{
+	width:150px;
+}
+.fldtime
+{
+	width:30px;
+}
+.flddate
+{
+	width:70px;
+}
+label
+{
+	color: #333;
+        width: 140px;
+        display: block;
+        float: left;
+}
+label.dte
+{
+        width: 80px;
+        float: none;
+        display: inline;
+}
+label.list
+{
+        float: none;
+        display: inline;
+}
+label.long
+{
+        width: auto;
+}
+.btn, .btnfilter
+{
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	width:150px;
+        text-transform: uppercase;
+}
+input.btnfilter
+{
+	width:100px;
+}
+.val, .err
+{
+	color: #F00;
+        font-weight: bold;
+}
+.hidden, .hidden .a
+{
+	color: #999 !important;
+}
+.clear
+{
+	clear: both;
+}
+#gallery #nums
+{
+	padding: 0px 0px 0px 0px;
+	margin: 10px 0px 10px 0px;
+}
+#gallery #nums li
+{
+	display:inline;
+}

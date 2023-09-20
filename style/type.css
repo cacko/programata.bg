@@ -1,0 +1,161 @@
+body
+{
+	color: #4c4c4c;
+	font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;/*Tahoma, Geneva, */
+	font-size: 70%;
+}
+a
+{
+	color: #666;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #C00;
+}
+#citynav a, #lang a
+{
+	color: #666;
+	text-decoration:none;
+}
+#citynav a:hover, #lang a:hover
+{
+	text-decoration: underline;
+}
+
+#mainnav 
+{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#mainnav a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+#mainnav a:hover
+{
+	color: #b3b3b3;
+}
+#menu
+{
+	/*text-transform: lowercase;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+#menu li a
+{
+	color: #4c4c4c;
+	font-weight: bold;
+	text-decoration: none;
+}
+#menu li.on a, #menu a:hover
+{
+	color: #C00;
+}
+#sysnav a
+{
+	color: #666;
+	text-decoration: none;
+}
+#sysnav a:hover
+{
+	text-decoration: underline;
+}
+#calendar .day #date
+{
+	font-size: 370%;
+	font-weight: bold;
+}
+#calendar .day #day, #calendar .day #year
+{
+	color: #FFF;
+}
+#calendar .cal table thead td
+{
+	color: #999;
+}
+#calendar .cal table tbody td:hover
+{
+	background: #C3C3C3 !important;
+}
+#calendar .cal table tbody td.off:hover
+{
+	background: transparent !important;
+}
+h2, h4
+{
+	color: #C00;
+	font-size: 165%;
+	font-weight:bold;
+	/*text-transform: lowercase;*/
+}
+h2 a, h4 a
+{
+	color: #C00;
+	text-decoration: none;
+}
+h3, h5, h6
+{
+	color: #4c4c4c;
+	font-size: 105%;
+	font-weight:bold;
+}
+h3 a, h5 a
+{
+	color: #4c4c4c;
+	text-decoration: none;
+}
+h3 a:hover, h5 a:hover
+{
+	color: #4c4c4c;
+	text-decoration: underline;
+}
+#frontlist h6, #frontnews h6, .promoleft, .promoright, #promonews
+{
+	font-size: 95%;
+}
+.date, .date a
+{
+	color: #999;
+	font-weight:normal;
+}
+.lead /*, .address*/
+{
+	color: #666;
+	font-size: 110%;
+}
+.lead .inline_nav, .lead .top, .address .inline_nav, .address .top
+{
+	font-size: 90%;/**/
+}
+.inline_nav li.on
+{
+	/*font-weight: bold;*/
+}
+ul.alpha li.on
+{
+        font-weight: bold;
+        font-size: 150%;
+}
+
+#path, #path a, #path a:hover
+{
+	color: #999;
+	text-decoration: none;
+}
+#path a:hover
+{
+	text-decoration: underline;
+}
+#copy
+{
+	color: #999;
+}
+#author
+{
+	font-size: 90%;
+}
+#author, #author a
+{
+	color: #CCC;
+}

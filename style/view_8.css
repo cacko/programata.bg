@@ -1,0 +1,28 @@
+a:hover
+{
+	color: #F93;
+}
+#mainnav 
+{
+	border-bottom: 5px #C60 solid;
+}
+h2, h2 a, h4, h4 a
+{
+	color: #F93;
+}
+h2, h4
+{
+	border-bottom: #F93 1px solid;
+}
+#menu li.on a, #menu a:hover, .inline_nav li.on a
+{
+	color: #F93;
+}
+h3 a, h3 a:hover, h5 a, h5 a:hover
+{
+	color: #F93;
+}
+#gallery #nums li.on a
+{
+	background: #C60;
+}

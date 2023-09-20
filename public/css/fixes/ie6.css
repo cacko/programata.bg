@@ -1,0 +1,84 @@
+/* 
+ * Please change your browser to higher version 
+ */
+
+/* Some filters */
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+button {
+	overflow: visible;
+}
+
+/* Clear elements */
+#wrapper,
+#header,
+#header .cities,
+#header .user-navigation,
+#header .applications,
+#banners-top,
+#navigation,
+#search form ul li .input,
+#search,
+#search form ul,
+#search form ul li .popup,
+#search .weather,
+.jcarousel-container,
+.jcarousel-clip,
+.jcarousel-list,
+#accents .slider,
+#accents ol,
+#accents,
+#home,
+#content .info-tabs li,
+#content .info-tabs .tab,
+#content .info-tabs h4,
+#content .tv-shows,
+#content .tv-shows ul,
+#content .tv-shows li,
+#footer-banners,
+#footer,
+#footer div,
+#footer ul,
+#menu .links ul {
+	zoom: 1;
+}
+
+/* Replace images */
+
+/*
+ PNG Transparent fix (i hate it)
+ 
+ Example: (scale or crop)
+	 background-image: none;
+	 filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='PATH', sizingMethod='scale');
+*/
+
+/* Other */
+#search form ul li,
+#search .weather div {
+	display: inline;
+}
+
+#menu .links {
+	height: 50px;
+}
+
+#menu {
+	height: 400px;
+}
+
+#container {
+	margin-top: -398px;
+}
+
+#content .info-tabs .tab strong,
+#content .info-tabs h4 a strong {
+	top: 50%;
+	zoom: 1;
+}
+
+#menu .links ul a:hover {
+	background: none;
+}

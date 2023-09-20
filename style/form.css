@@ -1,0 +1,103 @@
+label
+{
+	color: #666;
+}
+input.fld, textarea, select, .fldsmall, .fldfilter, .flddate, .fsearch
+{
+	width:450px;
+	background-color: #FFF;
+	border: 1px #CCC solid;
+	color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	/*padding-left:2px;*/
+	padding:2px;
+}
+input.btn
+{
+	height: 23px;
+}
+select
+{
+	width:455px;
+}
+#qsearch select, #qsearch input.fld
+{
+	width:169px;
+}
+#qsearch input.btn
+{
+	width:70px;
+}
+.comment_box input.fld, .comment_box textarea
+{
+	width:430px;
+}
+.flddate
+{
+	width: 80px;
+}
+.fldfilter, input.btn
+{
+	width: 140px;
+}
+input.fldfilter
+{
+	width: 132px;
+}
+.formbox form div
+{
+	float: left;
+	padding-right: 5px;
+	width: 140px;
+}
+textarea
+{
+	width:450px;
+	/*height:150px;*/
+}
+.btn
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 95%;
+	width:230px;
+	padding:2px;
+	text-transform: uppercase;
+}
+.val
+{
+	color: #C00;
+}
+#login input.fld
+{
+	width: 138px;
+	margin: 5px 0px 8px 0px;
+	border: 1px #E6E6E6 solid;
+}
+#login div.remem
+{
+	width: 148px;
+	float: left;
+}
+#login input.chk
+{
+	margin-bottom: 1px;
+}
+#login input.btn, #vote_frm input.btn
+{
+	width: 142px;
+}
+table.form
+{
+	width:470px;
+}
+table.form tbody th, table.form tbody td
+{
+	font-weight: normal;
+	vertical-align: top;
+	text-align: left;
+}
+table.form tfoot td, table.form tbody td
+{
+	text-align:right;
+}

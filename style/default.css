@@ -1,0 +1,24 @@
+/*defaults*/
+img
+{
+	border: 0px;
+}
+
+body, h1, h2, h3, h4, h5, h6, h7, p, hr, form
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+p
+{
+	padding-bottom: 5px;
+}

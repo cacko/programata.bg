@@ -1,0 +1,289 @@
+#path
+{
+	padding: 10px 10px 10px 10px;
+	margin: 0px 0px 0px 0px;
+	height: 10px;
+}
+#citynav
+{
+	float: left;
+	margin: 60px 10px 0px 10px;
+	padding: 7px 0px 0px 0px;
+	height: 10px;
+}
+#citynav li
+{
+	padding: 7px 0px 0px 0px;
+	margin: 0px 5px 0px 5px;
+	display: inline;
+	/*padding-right: 5px;*/
+}
+#citynav li a
+{
+	line-height: 250%;
+}
+#citynav li.on
+{
+	background : url('../img/city_on.png') 50% top no-repeat;
+}
+#lang
+{
+	margin: 0px 10px 10px 0px;
+	padding: 10px 10px 10px 10px;
+	width: 148px;
+	height: 15px;
+	/*background: #f9f9f9;
+	border: #e6e6e6 1px solid;
+	border-top: 0px;*/
+	float: left;
+}
+#lang ul
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#lang li
+{
+	display: inline;
+	padding-right: 5px;
+}
+
+/*MENU PAGE LIST*/
+#mainnav 
+{
+	background: url('../img/mnu_bgnd.png') bottom repeat-x;
+	padding: 17px 0px 17px 0px;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 5px #C00 solid;
+	height: 15px;
+}
+#mainnav li
+{
+	display: inline;
+	margin: 0px 20px 0px 20px;
+	padding: 17px 0px 17px 0px;
+}
+#mainnav li.on
+{
+	background : url('../img/mnu_on.png') bottom no-repeat;
+}
+#mainnav li a
+{
+	padding: 14px 0px 17px 0px;
+	line-height: 150%;
+}
+
+
+#menu ul
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#menu li
+{
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+}
+#menu li a
+{
+	/*border-top: 1px #9c9897 dashed;*/
+	background : url('../img/hr.png') top repeat-x;
+	padding: 5px 0px 6px 0px;
+	height: 12px;
+	display:block;
+}
+#maincontent>#menu li a
+{
+	height: auto;
+}
+#menu li.on
+{
+	background: url('../img/arr.png') 0px 3px no-repeat; /*left */
+}
+#menu ul ul 
+{
+	margin: 0px 0px 0px 5px;
+}
+#menu ul ul li
+{
+	list-style: none;
+	padding: 0px 0px 0px 7px;
+	background : url('../img/hr.png') 0px 10px no-repeat;
+}
+#menu ul ul li.on
+{
+	background : url('../img/hr.png') 0px 10px no-repeat;
+}
+#menu ul ul li a
+{
+	border: none;
+}
+
+.inline_nav
+{
+	margin: 20px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	background : url('../img/hr.png') bottom repeat-x;
+}
+.inline_nav li
+{
+	display: inline;
+	padding: 0px 15px 0px 20px;
+}
+.inline_nav li.backtolist
+{
+	background : url('../img/ico_backtolist.png') left no-repeat;
+}
+.inline_nav li.calendar_add, div.calendar_add
+{
+	background : url('../img/ico_calendar.png') left no-repeat;
+}
+div.calendar_add
+{
+	/*float: right;
+	margin-top: -20px;*/
+	margin-top: 10px;
+}
+.inline_nav li.comment, div.comment
+{
+	background : url('../img/ico_comment.png') left no-repeat;
+}
+.inline_nav li.comment_add, div.comment_add
+{
+	background : url('../img/ico_comment_add.png') left no-repeat;
+}
+.inline_nav li.friend
+{
+	background : url('../img/ico_email.png') left no-repeat;
+}
+.inline_nav li.eventim, div.eventim a
+{
+	background : url('../img/ico_eventim.png') left no-repeat;
+}
+.inline_nav li.exclusive, div.exclusive
+{
+	background : url('../img/ico_exclusive.png') left no-repeat;
+}
+.inline_nav li.gallery
+{
+	background : url('../img/ico_gallery.png') left no-repeat;
+}
+.inline_nav li.guest, div.guest
+{
+	background : url('../img/ico_guest.png') left no-repeat;
+}
+.inline_nav li.link, div.link a
+{
+	background : url('../img/ico_link.png') left no-repeat;
+}
+.inline_nav li.map, div.map a
+{
+	background : url('../img/ico_map.png') left no-repeat;
+}
+
+.inline_nav li.more_info, div.more_info a
+{
+}
+
+.inline_nav li.panorama
+{
+	background : url('../img/ico_panorama.png') left no-repeat;
+}
+.inline_nav li.premiere, div.premiere
+{
+	background : url('../img/ico_premiere.png') left no-repeat;
+}
+.inline_nav li.prepremiere, div.prepremiere
+{
+	background : url('../img/ico_prepremiere.png') left no-repeat;
+}
+.inline_nav li.program
+{
+	background : url('../img/ico_program.png') left no-repeat;
+}
+.inline_nav li.next
+{
+	background : url('../img/ico_program_next.png') left no-repeat;
+}
+.inline_nav li.prev
+{
+	background : url('../img/ico_program_prev.png') left no-repeat;
+}
+.inline_nav li.this
+{
+	background : url('../img/ico_program_this.png') left no-repeat;
+}
+.inline_nav li.remind
+{
+	background : url('../img/ico_remind.png') left no-repeat;
+}
+.inline_nav li.vote, div.vote
+{
+	background : url('../img/ico_vote.png') left no-repeat;
+}
+.inline_nav li.weather
+{
+	background : url('../img/ico_weather.png') left no-repeat;
+}
+div.eventim a, div.link a, div.map a, div.premiere a, div.prepremiere a, div.exclusive a, div.guest a, div.vote a, div.calendar_add a, 
+div.eventim span, div.link span, div.map span, div.premiere span, div.prepremiere span, div.exclusive span, div.guest span
+{
+	padding: 0px 0px 2px 20px;
+}
+
+.top
+{
+	float: right;
+	margin: -25px 0px 0px 0px;
+}
+.top a
+{
+	padding: 0px 15px 0px 10px;
+	background : url('../img/ico_up.png') right no-repeat;
+}
+.close
+{
+	float: right;
+	margin: 0px 0px 0px 0px;
+}
+.close a
+{
+	padding: 0px 20px 0px 10px;
+	background : url('../img/ico_close.png') right no-repeat;
+}
+
+ul.alpha
+{
+       margin-left: 0px;
+       padding-left: 0px;
+}
+ul.alpha li
+{
+        display : inline;
+        margin-right: 5px;
+}
+
+#sysnav
+{
+	float:right;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+#sysnav li
+{
+	display: inline;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 15px;
+	background : url('../img/div.png') 0px 2px no-repeat;
+}
+
+
+#sitemap ul
+{
+	padding-left:20px;
+	margin-left:10px;
+}
+#sitemap li
+{
+	list-style: disc;
+}

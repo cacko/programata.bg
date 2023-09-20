@@ -1,0 +1,136 @@
+#poll {
+    padding: 10px;
+    position: relative;
+}
+
+#poll * dt {
+    color: #4c4c4c;
+    font-size: 105%;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#pollInfoBox {
+    border: 3px solid #891616;
+    background-color: #F5F5F5;
+    position: fixed;
+    z-index: 9002;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 100px;
+}
+
+#pollInfoBox h1 {
+    float: none;
+    clear: both;
+    color: #FFFE59;
+    background-color: #891616;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#pollInfoBox p {
+    padding: 10px;
+}
+
+#blanket {
+    background-color: #111;
+    opacity: 0.65;
+    filter: alpha(opacity = 65);
+    position: absolute;
+    z-index: 9000;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#pollPopupBox {
+    border: 5px solid #891616;;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #F5F5F5;
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -200px;
+    width: 500px;
+    height: 400px;
+}
+
+#pollPopupBox h1 {
+    float: none;
+    clear: both;
+    color: #fff;
+    background-color: #891616;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#pollPopupBox p {
+    padding: 10px;
+}
+
+#poll * select, #pollForm * option {
+    width: 80px;
+}
+
+#poll * input[type =
+"text"] {
+    width: 250px;
+}
+
+#next_poll_page {
+    float: right;
+    margin-right: 20px;
+}
+
+#poll h4 {
+    font-size: 120%;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: #000;
+    background-image: none;
+    border: none;
+}
+
+#poll_paging {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    color: #000;
+    font-size: 10px;
+}
+
+#lufthansaForm {
+    position: relative;
+    width: 400px;
+}
+
+#lufthansaForm input[type =
+"text"], #lufthansaForm select, #lufthansaForm option {
+    width: 150px;
+}
+
+#lufthansaTerms {
+    background-color: #fff;
+    margin: 0px auto;
+    padding: 10px;
+    width: 500px;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.p {
+    padding-bottom: 10px;
+}
+
+.paragraph {
+    padding: 10px;
+}

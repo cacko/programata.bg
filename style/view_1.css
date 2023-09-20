@@ -1,0 +1,28 @@
+a:hover
+{
+	color: #C6C; /**/
+}
+#mainnav 
+{
+	border-bottom: 5px #b696b6 solid;
+}
+h2, h2 a, h4, h4 a
+{
+	color: #C6C;
+}
+h2, h4
+{
+	border-bottom: #C6C 1px solid;
+}
+#menu li.on a, #menu a:hover, .inline_nav li.on a
+{
+	color: #C6C;
+}
+h3 a, h3 a:hover, h5 a, h5 a:hover
+{
+	color: #C6C;
+}
+#gallery #nums li.on a
+{
+	background: #b696b6;
+}

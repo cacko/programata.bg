@@ -1,0 +1,28 @@
+a:hover
+{
+	color: #de205f;
+}
+#mainnav 
+{
+	border-bottom: 5px #ef8faf solid;
+}
+h2, h2 a, h4, h4 a
+{
+	color: #de205f;
+}
+h2, h4
+{
+	border-bottom: #de205f 1px solid;
+}
+#menu li.on a, #menu a:hover, .inline_nav li.on a
+{
+	color: #de205f;
+}
+h3 a, h3 a:hover, h5 a, h5 a:hover
+{
+	color: #de205f;
+}
+#gallery #nums li.on a
+{
+	background: #ef8faf;
+}

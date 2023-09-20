@@ -1,0 +1,82 @@
+body {
+    background-color: #DAE3EE;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    padding: 20px;
+}
+
+select {
+    width: 300px;
+}
+
+div.chart {
+    float: left;
+    width: 1100px;
+    padding: 5px;
+}
+
+#values * li {
+    list-style: none;
+}
+
+#login {
+    position: fixed;
+    border: 5px solid #376A9C;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    margin-left: -30px;
+    margin-top: -100px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#login label {
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#login input {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 180px;
+}
+
+input, select {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#header {
+    background-color: #376A9C;
+    padding: 5px;
+    position: relative;
+}
+
+#header h1 {
+    padding: 0;
+    margin: 0;
+}
+
+div.details {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.flash {
+	font-weight: bold;
+	color: #DAE3EE;
+}
+
